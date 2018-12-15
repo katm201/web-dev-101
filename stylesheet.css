@@ -1,0 +1,14 @@
+body {
+    font-family: Arial;
+    margin-left: 20px;
+    background-color: lightgray;
+}
+
+.form {
+    padding: 10px;
+}
+
+#submit-btn {
+    background-color: black;
+    color: white;
+}
