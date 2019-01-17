@@ -1,5 +1,8 @@
 const fs = require('fs');
 const path = require('path');
+const url = require('url');
+
+const storage = require('./storage');
 
 const serveError = function() {
     return { statusCode: 404, data: 'Not Found' };
@@ -19,7 +22,8 @@ const sendFiles = function(route) {
 }
 
 const routes = function(route, method) {
-    const baseRoute = '/' + route.substring(1).split('/')[0];
+    const { pathname, query } = url.parse(route);
+    const baseRoute = '/' + pathname.substring(1).split('/')[0];
     const routeDictionary = {
         '/': {
             'GET': () => sendFiles('/./index.html'),
@@ -30,6 +34,10 @@ const routes = function(route, method) {
         },
         '/scripts': {
             'GET': sendFiles,
+        },
+        '/storage': {
+            'GET': () => storage.getStrings(),
+            'POST': () => storage.addString(query),
         },
         error: serveError,
     };

@@ -5,7 +5,7 @@ const routes = require('./routes');
 
 const headers = {
     'access-control-allow-origin': '*',
-    'access-control-allow-methods': 'GET, OPTIONS',
+    'access-control-allow-methods': 'GET, OPTIONS, POST',
     'access-control-allow-headers': 'content-type, accept',
     'access-control-max-age': 10, // Seconds
 };
