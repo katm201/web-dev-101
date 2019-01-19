@@ -1,0 +1,10 @@
+{
+    "name": "web-dev-101",
+    "version": "0.0.1",
+    "description": "Web Development Crash Course",
+    "author": "katherine.manning@ask.com",
+    "scripts": {
+        "start": "node server/index.js"
+    },
+    "license": "Copyright 2018 Ask Media Group"
+}
