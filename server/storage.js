@@ -12,8 +12,7 @@ const addString = function(string) {
 
 const getStrings = function() {
     const text = fs.readFileSync(path.join(__dirname, 'strings.txt'), 'utf8');
-    const strings = text.split('\n');
-    return { data: JSON.stringify(strings) };
+    return text.split('\n');
 }
 
 module.exports = { addString, getStrings };
