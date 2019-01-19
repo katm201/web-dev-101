@@ -4,7 +4,11 @@
     "description": "Web Development Crash Course",
     "author": "katherine.manning@ask.com",
     "scripts": {
-        "start": "node server/index.js"
+        "start": "node server/index.js",
+        "start:dev": "nodemon server/index.js"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.9"
     },
     "license": "Copyright 2018 Ask Media Group"
 }
