@@ -7,6 +7,9 @@
         "start": "node server/index.js",
         "start:dev": "nodemon server/index.js"
     },
+    "dependencies": {
+        "query-string": "^6.2.0"
+    },
     "devDependencies": {
         "nodemon": "^1.18.9"
     },
