@@ -2,6 +2,8 @@
 
 This is a companion repo to a training created to teach the basics of web development to non-technical folks.
 
+## Why & What
+
 ### Challenges
 
 When first getting started learning to code, it can be hard to know where to start and what resources are out there. Specifically, there are often issues around:
@@ -32,7 +34,9 @@ Some things it doesn't cover:
 
 All of these are important for web developers to know, but are either good areas for self study or too far outside what's practical to learn as a beginner.
 
-### Getting Started
+## Getting Started
+
+### How to Navigate
 
 The repo exists in 10 branches, each of which correspond to a section of the slides. To look at a particular branch, you type the following into a terminal from the repo's root directory:
 
@@ -45,11 +49,41 @@ git checkout 01-html
 
 If you're viewing this online in Github, you can change the branch from the dropdown menu to the top left.
 
-To run and view this locally, you'll need `git`, `node`, and a text editor installed on your computer.
+To run and view this locally, you'll need [`git`](#setup-git), [`node`](#install-node), and a [text editor](#install-a-text-editor) installed on your computer.
+
+### Setup Git
+
+To install git on your computer, follow the instructions at this [link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), based on your operating system.
+
+Once git is installed, open your terminal, navigate to the directory where you want to store you local version, and execute the following command:
+
+```sh
+git clone https://github.com/katm201/web-dev-101
+```
+
+That will create a directory called `web-dev-101`, which you can then navigate into.
+
+### Install Node
+
+First, install [Homebrew](https://brew.sh/)--use the instructions specific to your operating system. Homebrew is a package manager that will install Node and all of its dependencies for you. It's a handy tool that you can also use for installing programs like MySQL.
+
+Once Homebrew is installed, execute the following command in the terminal:
+
+```sh
+brew install node
+```
+
+To check that it's worked, you can type `node -v` or `which node` to see what version is installed or where the program files are located.
+
+### Install a Text Editor
+
+There are tons of text editors out on the market, each with its own features and benefits. Of what's currently on the market, I'd recommend [VSCode](https://code.visualstudio.com/), Microsoft's free, open source text editor. It's available for all major operating systems and has a vibrant ecosystem and community behind it.
+
+Follow the instructions at the link to download and set it up.
 
 ### Table of Contents
 
-These are the branch names followed by a description of what's included:
+These are the branch names followed by a description of what's included for each:
 
 1. `01-html`:
     - a simple HTML file, displaying the tree-like structure of web pages
