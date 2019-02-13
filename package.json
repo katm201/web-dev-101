@@ -6,5 +6,5 @@
     "scripts": {
         "start": "node server/index.js"
     },
-    "license": "Copyright 2018 Ask Media Group"
+    "license": "Copyright 2018 Katherine Manning"
 }
