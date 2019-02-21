@@ -2,7 +2,7 @@
     "name": "web-dev-101",
     "version": "0.0.1",
     "description": "Web Development Crash Course",
-    "author": "katherine.manning@ask.com",
+    "author": "katm201@gmail.com",
     "scripts": {
         "start": "node server/index.js"
     },
