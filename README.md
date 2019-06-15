@@ -1,10 +1,6 @@
 # Web Dev 101
 
-<<<<<<< HEAD
 ## Filesystem & Persistence
-=======
-## State
->>>>>>> 05-state
 
 
 
@@ -27,7 +23,7 @@ To get back to the main page, select the `master` branch in the Github dropdown 
 git checkout master
 ```
 
-To go to the next section, select the `06-filesystem` branch in the Github dropdown or execute in your terminal:
+To go to the next section, select the `07-cdn` branch in the Github dropdown or execute in your terminal:
 ```sh
-git checkout 06-filesystem
+git checkout 07-cdn
 ```
