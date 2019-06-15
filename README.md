@@ -23,7 +23,7 @@ To get back to the main page, select the `master` branch in the Github dropdown 
 git checkout master
 ```
 
-To go to the next section, select the `07-cdn` branch in the Github dropdown or execute in your terminal:
+To go to the next section, select the `08-npm` branch in the Github dropdown or execute in your terminal:
 ```sh
-git checkout 07-cdn
+git checkout 08-npm
 ```
