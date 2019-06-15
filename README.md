@@ -1,10 +1,6 @@
 # Web Dev 101
 
-<<<<<<< HEAD
 ## Frameworks
-=======
-## Libraries
->>>>>>> 09-libraries
 
 
 
@@ -25,9 +21,4 @@ To get back to the main page, select the `master` branch in the Github dropdown 
 
 ```sh
 git checkout master
-```
-
-To go to the next section, select the `10-frameworks` branch in the Github dropdown or execute in your terminal:
-```sh
-git checkout 10-frameworks
 ```
