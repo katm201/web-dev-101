@@ -3,7 +3,6 @@
 ## JavaScript
 
 
-
 ## Table of Contents
 
 1. `01-html`
@@ -17,8 +16,13 @@
 1. `09-libraries`
 1. `10-frameworks`
 
-To get back to the main page, execute:
+To get back to the main page, select the `master` branch in the Github dropdown or execute in your terminal:
 
 ```sh
 git checkout master
+```
+
+To go to the next section, select the `03-javascript` branch in the Github dropdown or execute in your terminal:
+```sh
+git checkout 03-javascript
 ```
