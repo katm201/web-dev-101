@@ -17,8 +17,13 @@
 1. `09-libraries`
 1. `10-frameworks`
 
-To get back to the main page, execute:
+To get back to the main page, select the `master` branch in the Github dropdown or execute in your terminal:
 
 ```sh
 git checkout master
+```
+
+To go to the next section, select the `08-npm` branch in the Github dropdown or execute in your terminal:
+```sh
+git checkout 08-npm
 ```
