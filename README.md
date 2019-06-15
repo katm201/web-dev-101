@@ -23,7 +23,7 @@ To get back to the main page, select the `master` branch in the Github dropdown 
 git checkout master
 ```
 
-To go to the next section, select the `04-node` branch in the Github dropdown or execute in your terminal:
+To go to the next section, select the `05-state` branch in the Github dropdown or execute in your terminal:
 ```sh
-git checkout 04-node
+git checkout 05-state
 ```
